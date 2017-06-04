@@ -10,6 +10,9 @@ body {
 .color-blueish {
   color: #3EABFD;
 }
+.bg-blueish {
+  background-color: #3EABFD;
+}
 .header {
   background: url(../img/1.jpg) no-repeat center center;
   background-size: cover;
@@ -23,7 +26,7 @@ body {
   margin-top: 44vh;
   top: 60%;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -37,7 +40,8 @@ body {
 .about-info {
   margin-top: 50px;
   color: white;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .advantages h1 {
@@ -48,21 +52,34 @@ body {
   color: #3EABFD;
 }
 #advantagesCarousel {
-  background: url(../img/4.jpg) no-repeat center center;
-  background-size: cover;
+  /*background: url(../img/4.jpg) no-repeat center center;
+  background-size: cover;*/
+  min-height: 580px;
 }
 .advantages-head {
   display: inline-block;
   vertical-align: middle;
   height: 1.2em;
 }
+.item-img {
+  margin: 10px 0;
+}
+.img-fix {
+  height: 80px;
+}
 .img-center {
   margin: 0 auto;
 }
+.nav-pills>li {
+  background-color: #2980b9;
+}
+.nav-pills>li>a {
+  border-radius: none;
+}
 
-.nav-pills>li[data-slide-to="0"].active a { background-color: #16a085; }
-.nav-pills>li[data-slide-to="1"].active a { background-color: #e67e22; }
-.nav-pills>li[data-slide-to="2"].active a { background-color: #2980b9; }
+.nav-pills>li[data-slide-to="0"].active a {   background-color: #3EABFD; }
+.nav-pills>li[data-slide-to="1"].active a {   background-color: #3EABFD; }
+.nav-pills>li[data-slide-to="2"].active a {   background-color: #3EABFD; }
 
 .us-bg {
   background: url(../img/5.jpg) no-repeat center center;
